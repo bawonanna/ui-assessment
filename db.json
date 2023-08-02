@@ -10,7 +10,7 @@
     },
     {
       "Name": "JANE Doe",
-      "Transaction Amount": 200,
+      "Transaction Amount": 120,
       "Value": "250 points",
       "Points": 250,
       "Date": "Wed Aug 02 2023 14:30:40 GMT-0500 (Central Daylight Time)",
@@ -47,6 +47,14 @@
       "Points": 90,
       "Date": "Wed Aug 02 2023 15:09:08 GMT-0500 (Central Daylight Time)",
       "id": 6
+    },
+    {
+      "Name": "Jane Brown",
+      "Transaction Amount": 300,
+      "Value": "450 points",
+      "Points": 450,
+      "Date": "Wed Aug 02 2023 15:35:51 GMT-0500 (Central Daylight Time)",
+      "id": 7
     }
   ]
 }
