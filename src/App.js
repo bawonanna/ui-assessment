@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Form from "./components/Form";
+import Display from "./components/Display";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const [finalPoints, setFinalPoints] = useState('')
+    const [tabIndex, setTabIndex] = useState(0);
+    const handleForm = (point) => {
+        setFinalPoints(point)
+    }
+
+    return(
+        <div>
+        <h1>Purchase Point Generator</h1>
+
+         <Form onHandleForm={handleForm} />
+        {finalPoints && finalPoints !== '' ? <Display points={finalPoints} />: ("")}
+        </div>
+    );  
+};
 
 export default App;
