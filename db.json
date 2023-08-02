@@ -39,6 +39,14 @@
       "Points": 1850,
       "Date": "Wed Aug 02 2023 14:54:38 GMT-0500 (Central Daylight Time)",
       "id": 5
+    },
+    {
+      "Name": "John Doe",
+      "Transaction Amount": 120,
+      "Value": "90 points",
+      "Points": 90,
+      "Date": "Wed Aug 02 2023 15:09:08 GMT-0500 (Central Daylight Time)",
+      "id": 6
     }
   ]
 }
